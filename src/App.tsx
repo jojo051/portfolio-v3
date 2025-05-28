@@ -1,7 +1,9 @@
+import Presentation from "./components/Presentation";
+
 function App() {
 	return (
 		<>
-			<h1>hello world</h1>
+			<Presentation/>
 		</>
 	);
 }

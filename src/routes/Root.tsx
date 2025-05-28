@@ -1,11 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import NavBar from "../components/NavBar";
 
 export default function Root() {
 	return (
 		<div>
-			<nav>
-				<Link to="/">Accueil</Link>
-			</nav>
+			<NavBar />
 			<hr />
 			<Outlet />
 		</div>
