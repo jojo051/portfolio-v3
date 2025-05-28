@@ -7,8 +7,11 @@ function App() {
 	return (
 		<>
 			<Presentation />
+			<hr />
 			<Skill />
+			<hr />
 			<Project />
+			<hr />
 			<Contact />
 		</>
 	);
