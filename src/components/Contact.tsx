@@ -1,16 +1,10 @@
-import LinkGithub from "./LinkGithub";
-import LinkLinkedIn from "./LinkLinkedIn";
-import LinkEmail from "./LinkEmail";
+import AllLink from "./AllLink";
 
 const Contact = () => {
 	return (
 		<section id="contact">
 			<h2>Contact</h2>
-			<div>
-				<LinkGithub />
-				<LinkLinkedIn />
-				<LinkEmail />
-			</div>
+			<AllLink />
 		</section>
 	);
 };

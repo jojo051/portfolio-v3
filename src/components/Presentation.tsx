@@ -1,6 +1,4 @@
-import LinkGithub from "./LinkGithub";
-import LinkLinkedIn from "./LinkLinkedIn";
-import LinkEmail from "./LinkEmail";
+import AllLink from "./AllLink";
 
 const Presentation = () => {
 	return (
@@ -15,11 +13,7 @@ const Presentation = () => {
 					<img src="" alt="my head" />
 				</div>
 			</div>
-			<div>
-				<LinkGithub />
-				<LinkLinkedIn />
-				<LinkEmail />
-			</div>
+			<AllLink />
 		</section>
 	);
 };
