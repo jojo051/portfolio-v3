@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
+import head from "../assets/head-joel.png";
 
 const NavBar = () => {
 	return (
-		<nav>
-			<div>
-				<Link to="/">
-					<img src="" alt="home" />
-				</Link>
+		<nav className="sticky top-0 flex justify-between items-center bg-[#111927] text-[#D6E1FF] h-14 ">
+			<div className="w-40 flex justify-center">
+				<a href="#home">
+					<img className="size-8 rounded-4xl" src={head} alt="myhead" />
+				</a>
 			</div>
-			<div>
-				<a href="#skill"> Skill</a>
-				<a href="#project">Project</a>
-				<a href="#contact">Contact</a>
+			<div className="w-60 flex justify-around ">
+				<a className="hover:scale-120" href="#skill"> Skill</a>
+				<a className="hover:scale-120" href="#project">Project</a>
+				<a className="hover:scale-120" href="#contact">Contact</a>
 			</div>
 		</nav>
 	);

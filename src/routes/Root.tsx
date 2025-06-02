@@ -3,10 +3,9 @@ import NavBar from "../components/NavBar";
 
 export default function Root() {
 	return (
-		<div>
+		<body id="home">
 			<NavBar />
-			<hr />
 			<Outlet />
-		</div>
+		</body>
 	);
 }
