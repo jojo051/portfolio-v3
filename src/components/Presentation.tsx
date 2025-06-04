@@ -1,5 +1,5 @@
 import AllLink from "./AllLink";
-import head from "../assets/head-joel.png";
+import head from "../assets/head-joel.webp";
 
 const Presentation = () => {
 	return (
@@ -11,7 +11,7 @@ const Presentation = () => {
 					<p>Software engineer ...</p>
 				</div>
 				<div className="w-1/3 flex items-center justify-end">
-					<img className="rounded-4xl h-20" src={head} alt="my head" />
+					<img className="rounded-4xl h-18" src={head} alt="my head" />
 				</div>
 			</div>
 			<div className="h-1/3">

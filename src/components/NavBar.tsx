@@ -1,8 +1,8 @@
-import head from "../assets/head-joel.png";
+import head from "../assets/head-joel.webp";
 
 const NavBar = () => {
 	return (
-		<nav className="sticky top-0 flex justify-between items-center bg-[#111927] text-[#D6E1FF] h-14 ">
+		<nav className="sticky top-0 flex justify-between items-center bg-[#111927] text-[#D6E1FF] h-14">
 			<div className="w-40 flex justify-center">
 				<a href="#home">
 					<img className="size-8 rounded-4xl" src={head} alt="myhead" />

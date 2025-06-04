@@ -1,16 +1,16 @@
 import Contact from "./components/Contact";
 import Presentation from "./components/Presentation";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 
 function App() {
 	return (
 		<>
 			<Presentation />
-			<hr />
+			<hr className="text-[#D6E1FF]"/>
 			<Skill />
-			<hr />
-			<Project />
+			<hr className="text-[#D6E1FF]" />
+			<Projects />
 			<hr />
 			<Contact />
 		</>
