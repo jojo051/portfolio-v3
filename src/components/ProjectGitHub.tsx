@@ -1,5 +1,4 @@
 import githubSymbol from "../assets/github-symbol-white.png"
-import externalLinkSymbol from "../assets/external-link-symbol-white.png";
 
 const ProjectGitHub = () => {
   return (
