@@ -3,7 +3,7 @@ import head from "../assets/head-joel.webp";
 
 const Presentation = () => {
 	return (
-		<section className="bg-[#111927] text-[#D6E1FF] flex flex-col items-center justify-around h-[80vh] min-w-[360px] maw-w[100vw] ">
+		<section className="bg-[#111927] text-[#D6E1FF] flex flex-col items-center justify-around h-[75vh] min-w-[360px] maw-w-[100vw]">
 			<div className="flex w-[70vw] h-2/3 ">
 				<div className="flex flex-col justify-center w-2/3">
 					<p className="text-[#70B8FF]">Hey there! I'm</p>

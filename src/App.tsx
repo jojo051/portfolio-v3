@@ -7,11 +7,11 @@ function App() {
 	return (
 		<>
 			<Presentation />
-			<hr className="text-[#D6E1FF]"/>
+			<hr className="text-[#D6E1FF]" />
 			<Skill />
 			<hr className="text-[#D6E1FF]" />
 			<Projects />
-			<hr />
+			<hr className="text-[#D6E1FF]" />
 			<Contact />
 		</>
 	);
